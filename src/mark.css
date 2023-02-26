@@ -1,0 +1,15 @@
+.marks{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    height: 80%;
+    padding-left: 10px;
+
+    /* border: solid red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.marks::-webkit-scrollbar {
+    display: none;
+  }
